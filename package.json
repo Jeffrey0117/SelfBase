@@ -1,0 +1,13 @@
+{
+  "name": "selfbase",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Self-hosted infrastructure manager: PostgreSQL backup scheduling + Redis monitoring for CloudPipe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}
